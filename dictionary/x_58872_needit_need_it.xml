@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="9c15e6a583d5121067569610feaad315" extends="task" label="Need_It" max_length="40" name="x_58872_needit_need_it" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="when needed" mandatory="true" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element label="address" max_length="40" name="address" type="string"/>
+        <element label="home" max_length="40" name="home" type="condition_string"/>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
+        <element display="true" label="phone number" max_length="40" name="phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human Resources" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="legal" sequence="2" value="legal"/>
+                <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
+                <element inactive_on_update="false" label="Your Department Choice" sequence="3" value="your department choice"/>
+            </choice>
+        </element>
+    </element>
+</database>
