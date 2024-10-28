@@ -17,9 +17,12 @@
         <element label="address" max_length="40" name="address" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
+                <element inactive_on_update="false" label="Human Resources" sequence="0" value="Human Resources"/>
+                <element inactive_on_update="false" label="Facilities" sequence="0" value="Facilities"/>
                 <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Legal" sequence="0" value="Legal"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal1" label="what needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
