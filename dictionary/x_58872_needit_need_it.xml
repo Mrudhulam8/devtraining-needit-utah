@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="9c15e6a583d5121067569610feaad315" extends="task" label="Need_It" max_length="40" name="x_58872_needit_need_it" type="collection">
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:Red;25:OrangeRed;44:Gold;66:GreenYellow;90:LimeGreen,target_field=target" label="% complete" max_length="15" name="complete" type="percent_complete"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_choice_4" type="string">
             <choice>
                 <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
@@ -10,6 +11,7 @@
         </element>
         <element label="home" max_length="40" name="home" type="condition_string"/>
         <element display="true" label="phone number" max_length="40" name="phone_number" type="string"/>
+        <element label="Target" max_length="20" name="target" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="when needed" mandatory="true" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
