@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4cd0a1d2c371121087d9bb0d05013148" label="table1" max_length="40" name="x_58872_needit_table1" type="collection">
+        <element label="c" max_length="40" name="c" type="string"/>
+        <element label="b" max_length="40" name="b" type="string"/>
+        <element label="d" max_length="40" name="d" type="integer"/>
+        <element label="a" max_length="40" name="a" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="6befc843c335121087d9bb0d05013141" extends="dl_matcher" label="needit data lookup" max_length="40" name="x_58872_needit_needit_data_lookup" type="collection">
+        <element choice="3" default="1" label="hotel" max_length="40" name="hotel" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="emp_dept" mandatory="true" max_length="32" name="u_emp_dept" reference="cmn_department" type="reference"/>
+        <element attributes="encode_utf8=false" label="emp desig" mandatory="true" max_length="32" name="u_emp_desig" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_emp_dept"/>
+        </index>
+        <index name="index2">
+            <element name="u_emp_desig"/>
+        </index>
+    </element>
+</database>

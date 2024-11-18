@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4e1b1e26c331121087d9bb0d0501315d" sys_domain="global" table="x_58872_needit_need_it" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-14 06:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>961b1e26c331121087d9bb0d050131eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_need_it" name="x_58872_needit_need_it" sys_domain="global" view="04028dbe4010121087de8045c806ffa4">4e1b1e26c331121087d9bb0d0501315d</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_need_it" sys_domain="global" view="04028dbe4010121087de8045c806ffa4">ce1b1e26c331121087d9bb0d0501315a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-14 06:11:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-14 06:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>921b1e26c331121087d9bb0d050131ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_need_it" name="x_58872_needit_need_it" sys_domain="global" view="04028dbe4010121087de8045c806ffa4">4e1b1e26c331121087d9bb0d0501315d</sys_ui_form>
+            <sys_ui_section caption="log" display_value="log" name="x_58872_needit_need_it" sys_domain="global" view="04028dbe4010121087de8045c806ffa4">ca1b1e26c331121087d9bb0d0501315c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-14 06:11:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_58872_needit_need_it</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-14 06:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4e1b1e26c331121087d9bb0d0501315d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_need_it</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4e1b1e26c331121087d9bb0d0501315d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-14 06:11:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">04028dbe4010121087de8045c806ffa4</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
